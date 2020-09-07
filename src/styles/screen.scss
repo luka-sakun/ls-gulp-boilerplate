@@ -1,0 +1,30 @@
+// Normalize styles with module https://github.com/necolas/normalize.css
+@import "normalize.css/normalize";
+
+@import "helpers/sprite";
+@import "helpers/fonts";
+@import "helpers/variables";
+
+// Import blocks
+@import "blocks/**/*.scss";
+
+html {
+  font-size: $font-size-base;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: 1rem;
+}
+
+.icon {
+  display: inline-block;
+  @include sprite($icon-instagram);
+}
+
+.icon-retina {
+  display: inline-block;
+  @include retina-sprite($icon-instagram-group);
+}
+
+@include sprites($spritesheet-sprites);

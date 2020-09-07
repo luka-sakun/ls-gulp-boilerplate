@@ -1,0 +1,36 @@
+// This styles are only for index page with templates
+@import "helpers/sprite";
+@import "helpers/fonts";
+@import "helpers/variables";
+@include sprites($spritesheet-sprites);
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: rgb(46, 45, 45);
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1024px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+a {
+  color: rgb(0, 67, 168);
+
+  &:hover {
+    color: rgb(0, 86, 216);
+  }
+}
+
+.icon {
+  display: inline-block;
+}

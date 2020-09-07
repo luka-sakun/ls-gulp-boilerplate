@@ -1,0 +1,202 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$icon-instagram-name: 'icon-instagram';
+$icon-instagram-x: 0px;
+$icon-instagram-y: 0px;
+$icon-instagram-offset-x: 0px;
+$icon-instagram-offset-y: 0px;
+$icon-instagram-width: 45px;
+$icon-instagram-height: 45px;
+$icon-instagram-total-width: 100px;
+$icon-instagram-total-height: 100px;
+$icon-instagram-image: '../images/sprite.png?1599413068946';
+$icon-instagram: (0px, 0px, 0px, 0px, 45px, 45px, 100px, 100px, '../images/sprite.png?1599413068946', 'icon-instagram', );
+$icon-instagram2-name: 'icon-instagram2';
+$icon-instagram2-x: 55px;
+$icon-instagram2-y: 0px;
+$icon-instagram2-offset-x: -55px;
+$icon-instagram2-offset-y: 0px;
+$icon-instagram2-width: 45px;
+$icon-instagram2-height: 45px;
+$icon-instagram2-total-width: 100px;
+$icon-instagram2-total-height: 100px;
+$icon-instagram2-image: '../images/sprite.png?1599413068946';
+$icon-instagram2: (55px, 0px, -55px, 0px, 45px, 45px, 100px, 100px, '../images/sprite.png?1599413068946', 'icon-instagram2', );
+$icon-instagram3-name: 'icon-instagram3';
+$icon-instagram3-x: 0px;
+$icon-instagram3-y: 55px;
+$icon-instagram3-offset-x: 0px;
+$icon-instagram3-offset-y: -55px;
+$icon-instagram3-width: 45px;
+$icon-instagram3-height: 45px;
+$icon-instagram3-total-width: 100px;
+$icon-instagram3-total-height: 100px;
+$icon-instagram3-image: '../images/sprite.png?1599413068946';
+$icon-instagram3: (0px, 55px, 0px, -55px, 45px, 45px, 100px, 100px, '../images/sprite.png?1599413068946', 'icon-instagram3', );
+$icon-instagram2-2x-name: 'icon-instagram2@2x';
+$icon-instagram2-2x-x: 0px;
+$icon-instagram2-2x-y: 0px;
+$icon-instagram2-2x-offset-x: 0px;
+$icon-instagram2-2x-offset-y: 0px;
+$icon-instagram2-2x-width: 90px;
+$icon-instagram2-2x-height: 90px;
+$icon-instagram2-2x-total-width: 200px;
+$icon-instagram2-2x-total-height: 200px;
+$icon-instagram2-2x-image: '../images/sprite@2x.png?1599413068946';
+$icon-instagram2-2x: (0px, 0px, 0px, 0px, 90px, 90px, 200px, 200px, '../images/sprite@2x.png?1599413068946', 'icon-instagram2@2x', );
+$icon-instagram3-2x-name: 'icon-instagram3@2x';
+$icon-instagram3-2x-x: 110px;
+$icon-instagram3-2x-y: 0px;
+$icon-instagram3-2x-offset-x: -110px;
+$icon-instagram3-2x-offset-y: 0px;
+$icon-instagram3-2x-width: 90px;
+$icon-instagram3-2x-height: 90px;
+$icon-instagram3-2x-total-width: 200px;
+$icon-instagram3-2x-total-height: 200px;
+$icon-instagram3-2x-image: '../images/sprite@2x.png?1599413068946';
+$icon-instagram3-2x: (110px, 0px, -110px, 0px, 90px, 90px, 200px, 200px, '../images/sprite@2x.png?1599413068946', 'icon-instagram3@2x', );
+$icon-instagram-2x-name: 'icon-instagram@2x';
+$icon-instagram-2x-x: 0px;
+$icon-instagram-2x-y: 110px;
+$icon-instagram-2x-offset-x: 0px;
+$icon-instagram-2x-offset-y: -110px;
+$icon-instagram-2x-width: 90px;
+$icon-instagram-2x-height: 90px;
+$icon-instagram-2x-total-width: 200px;
+$icon-instagram-2x-total-height: 200px;
+$icon-instagram-2x-image: '../images/sprite@2x.png?1599413068946';
+$icon-instagram-2x: (0px, 110px, 0px, -110px, 90px, 90px, 200px, 200px, '../images/sprite@2x.png?1599413068946', 'icon-instagram@2x', );
+$spritesheet-width: 100px;
+$spritesheet-height: 100px;
+$spritesheet-image: '../images/sprite.png?1599413068946';
+$spritesheet-sprites: ($icon-instagram, $icon-instagram2, $icon-instagram3, );
+$spritesheet: (100px, 100px, '../images/sprite.png?1599413068946', $spritesheet-sprites, );
+$retina-spritesheet-width: 200px;
+$retina-spritesheet-height: 200px;
+$retina-spritesheet-image: '../images/sprite@2x.png?1599413068946';
+$retina-spritesheet-sprites: ($icon-instagram2-2x, $icon-instagram3-2x, $icon-instagram-2x, );
+$retina-spritesheet: (200px, 200px, '../images/sprite@2x.png?1599413068946', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$icon-instagram-group-name: 'icon-instagram';
+$icon-instagram-group: ('icon-instagram', $icon-instagram, $icon-instagram2-2x, );
+$icon-instagram2-group-name: 'icon-instagram2';
+$icon-instagram2-group: ('icon-instagram2', $icon-instagram2, $icon-instagram3-2x, );
+$icon-instagram3-group-name: 'icon-instagram3';
+$icon-instagram3-group: ('icon-instagram3', $icon-instagram3, $icon-instagram-2x, );
+$retina-groups: ($icon-instagram-group, $icon-instagram2-group, $icon-instagram3-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

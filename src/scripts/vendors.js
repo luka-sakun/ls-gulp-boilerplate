@@ -1,0 +1,2 @@
+// for example:
+// require("jquery");

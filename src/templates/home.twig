@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include './partials/head-meta.twig' with {pagetTitle: "Home page"}%} {%
+    include './partials/head-imports.twig'%}
+  </head>
+  <body>
+
+  <svg class="svg-close-dims">
+    <use xlink:href="images/sprite.svg#close"></use>
+  </svg>
+    {% include './partials/header.twig' with {title: "Site header"}%}
+    <p>
+      <a href="index.html"><- Back to index page</a>
+    </p>
+    <p>
+      <img src="temp-files/some-content-image.jpeg" alt="Content image" />
+    </p>
+    {% include './partials/footer.twig'%}
+  </body>
+</html>
