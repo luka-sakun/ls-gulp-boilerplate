@@ -70,11 +70,11 @@ Here you can imitate Drupal behaviour calls and other functionality required onl
 CSS reset is implemented with module [normalize.css](https://github.com/necolas/normalize.css).
 
 
-##Configs
+## Configs
 
 `./config.js` - root config. You can override config in `./config.local.js`. 
 Please keep local config file in git ignore.
 
 
-##Useful info
+## Useful info
 - browsersl.ist - https://browsersl.ist
