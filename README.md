@@ -10,7 +10,7 @@ Version 1.0.0
 | `npm run theme`  | Build Drupal theme resources (js, css, images) to `./` |
 | `npm run slices` | Build slices to `./slices`. And this folder is being refreshed when `npm start` is running|
 
-##PNG sprite
+## PNG sprite
 
 Implemented with module [gulp.spritesmith](https://github.com/twolfson/gulp.spritesmith). 
 Source PNG files should be placed in `./src/png-icons/`. This folder should contain only PNG icons. 
@@ -33,7 +33,7 @@ How to use in SCSS:
 @include retina-sprite($icon-instagram-group);
 ```
 
-##SVG sprite
+## SVG sprite
 
 Implemented with module [gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite). 
 Source SVG files should be placed here - `./src/svg-icons/`. 
@@ -49,11 +49,11 @@ How to use in HTML:
 </svg>
 ```
 
-##Content files
+## Content files
 
 Folder `./src/temp-files/` should contain files which are not required in production build: content images, videos, etc.
 
-##Scripts
+## Scripts
 
 ES6.
 
@@ -65,7 +65,7 @@ In this case you can include only one file to the HTML page but not big list of 
 `./src/scripts/slice-only.js` - this file is built only in 'development' mode.
 Here you can imitate Drupal behaviour calls and other functionality required only by samples.
 
-##CSS reset
+## CSS reset
 
 CSS reset is implemented with module [normalize.css](https://github.com/necolas/normalize.css).
 
